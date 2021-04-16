@@ -1,0 +1,196 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+  }
+  button {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  ul {
+      list-style: none;
+  }
+  
+  body {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 17px;
+      line-height: 1.4; 
+      height: auto;
+      background-color: #dec8ba;
+      background-image: url(image/notarius_mail_pic_books.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;  
+  }
+
+  #first-name,
+  #second-name {
+      margin-bottom: 15px;
+  }
+
+ .content {    
+ margin: 0 auto;
+ max-width: 1900px;
+ position: relative;
+}      
+
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.header {
+    padding: 15px 0; 
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header__logo {
+    width: 215px;
+    height: 40px;
+    background-image: url(image/e-notarius_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__logo img{
+    width: 100%;
+    height: auto;
+}
+
+.navigation-list {
+    margin: 0;
+}
+.navigation-list li {
+    display: inline-block;
+    transition: all 0.3s;
+}
+.navigation-list li:hover {
+    color: #22241d;
+}
+.navigation-list .active {
+    color: #22241d;
+}
+
+.navigation-list li + li {
+    margin-left: 40px;
+}
+.form-title {
+    color: #22241d;
+    text-align: center;
+    margin: 70px 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.registration-form {
+    width: 430px;
+    margin: 0 auto;
+}
+
+.registration-form label, input {
+    width: 100%;
+}
+
+.registration-form label {
+    color: #333333;
+}
+.registration-form input {
+    margin: 15px 0 45px;
+   border: 1px solid  #a59f9c;
+   background-color: transparent;
+   padding: 8px 10px;
+}
+.registration-form input::placeholder {
+    color: #666666;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 100px; 
+    background-color: #d1b09d;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+}
+.btn:hover {
+    color: #ffffff;
+}
+
+.services {
+    padding: 100px 20px;
+    background-image: url(image/judges_gavel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.services__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.services__item {
+    padding: 20px;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+.services__item img {
+width: 80px;
+height: 90px;
+margin-right: 30px;
+}
+.search-notar img {
+    margin-left: 20px;
+    margin-right: 35px;
+}
+.services__item a {
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+}
+.rate-notar img {
+    margin-left: 8px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+    width: 140px;
+    height: 40px;
+    background-image: url(image/e-notarius_logo.png);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li {
+    display: inline-block;
+}
