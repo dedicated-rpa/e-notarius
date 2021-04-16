@@ -32,10 +32,6 @@ html {
       line-height: 1.4; 
       height: auto;
       background-color: #dec8ba;
-      background-image: url(image/notarius_mail_pic_books.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;  
   }
 
   #first-name,
@@ -52,14 +48,17 @@ html {
 .container {
     max-width: 1200px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 .header {
-    padding: 15px 0; 
-    margin-bottom: 400px;
+    padding: 15px 20px 510px 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(image/notarius_mail_pic_books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
    
 }
 .header__logo {
@@ -97,11 +96,15 @@ html {
     text-align: center;
     margin: 70px 0;
     font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: -150px;
+    left: 85px;
 }
 
 .registration-form {
     width: 430px;
     margin: 0 auto;
+    position: relative;
 }
 
 .registration-form label, input {
