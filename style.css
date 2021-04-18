@@ -182,10 +182,11 @@ margin-right: 30px;
 
 .footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* z-index: 5; */
     background-color: #333333;
+    padding: 20px 0;
 }
 .footer__logo {
     width: 140px;
@@ -199,7 +200,7 @@ margin-right: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+   
 }
 .social {
     display: flex;
@@ -380,17 +381,16 @@ color: #22241d;
         text-align: center;
         margin-top: 10px;
     }
-    .footer {
-        bottom: -100px;
-    }
+   
     .menu-btn.active .move-down,
-    .menu-btn.active .move-up,  {
+    .menu-btn.active .move-up
+     {
         width: 20px;
     }
     .menu-btn span{
         width: 30px;
     }
-    ..services__item {
+    .services__item {
         padding: 0px;
     }
     
