@@ -50,16 +50,18 @@ html {
     height: auto;
     margin: 0 auto;  
 }
-.header {
-    padding: 15px 20px 510px 0; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {    
+    padding: 15px 20px 510px 0;    
     background-image: url(image/notarius_mail_pic_books.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
    
+}
+.header__wrapper {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
     width: 215px;
@@ -142,7 +144,8 @@ html {
     background-image: url(image/judges_gavel.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;    
+    background-position: center;   
+    background-color: #1b1a11; 
 }
 .services__wrapper {
     display: flex;
@@ -168,6 +171,10 @@ margin-right: 30px;
 .services__item a {
     font-size: 36px;
     font-family: 'Work Sans', sans-serif;
+    transition: all 0.3s;
+}
+.services__item a:hover {
+    opacity:  0.5;
 }
 .rate-notar img {
     margin-left: 8px;
@@ -178,8 +185,7 @@ margin-right: 30px;
     position: absolute;
     bottom: 0;
     z-index: 5;
-    display: flex;
-    justify-content: space-between;
+    background-color: #333333;
 }
 .footer__logo {
     width: 140px;
@@ -192,8 +198,24 @@ margin-right: 30px;
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
-
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.social-links{
+    margin: 0;
+    padding: 0;
+}
 .social-links li {
     display: inline-block;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+
+.social-links li:hover {
+color: #22241d;
 }

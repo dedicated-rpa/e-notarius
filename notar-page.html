@@ -15,31 +15,33 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css">
     <title>E-notarius</title>
   </head>
   <body>
-    <div class="content">
-      <div class="container">
+    <div class="content">  
         <header class="header">
-          <div class="header__logo">
-            <!-- <img src="image/e-notarius_logo.png" alt="E-notarius" /> -->
+          <div class="header__wrapper container ">
+            <div class="header__logo">
+              <!-- <img src="image/e-notarius_logo.png" alt="E-notarius" /> -->
+            </div>
+            <nav class="header__navigation">
+              <ul class="navigation-list">
+                <li >
+                  <a href="#"> Головна </a>
+                </li>
+                <li >
+                  <a href="#"> Для громадян </a>
+                </li>
+                <li class="active" >
+                  <a href="#"> Для нотаріусів </a>
+                </li>
+                <li >
+                  <a href="#">Нотаріальні діяння </a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header__navigation">
-            <ul class="navigation-list">
-              <li >
-                <a href="#"> Головна </a>
-              </li>
-              <li >
-                <a href="#"> Для громадян </a>
-              </li>
-              <li class="active" >
-                <a href="#"> Для нотаріусів </a>
-              </li>
-              <li >
-                <a href="#">Нотаріальні діяння </a>
-              </li>
-            </ul>
-          </nav>
         </header>
         <main>
          
@@ -53,14 +55,12 @@
             <input type="text" id="third-name" placeholder="По-батькові" />
             <label for="phone">Ваш телефон</label>
             <input type="text" id="phone" />
-            <label for="e-mail"
-              >Підтвердіть, будь-ласка, Вашу реєстрацію по e-mail</label
-            >
+            <label for="e-mail">Підтвердіть, будь-ласка, Вашу реєстрацію по e-mail</label>
             <input type="text" id="e-mail" />
             <button class="btn" type="submit">Зареєструватися</button>
           </form>
           <div class="services">
-            <div class="services__wrapper">
+            <div class="services__wrapper container">
               <div class="services__item">
                 <img
                   class="item-img"
@@ -81,7 +81,7 @@
                 />
                 <div class="item-info">
                   <a href="#">Про послуги</a>
-                  <p>ізнайтесь інформацію щодо послуги, що Вас цікавить</p>
+                  <p>Дізнайтесь інформацію щодо послуги, що Вас цікавить</p>
                 </div>
               </div>
               <div class="services__item search-notar" >
@@ -113,26 +113,26 @@
           </div>
         </main>
     
- 
-
     <footer class="footer">
-        <div class="footer__logo">
+      <div class="footer__wrapper container">
+        <a class="footer__logo" href="#">
           <!-- <img src="image/e-notarius_logo.png" alt="E-notarius" /> -->
-        </div>
-         
-        <div class="footer__wrapper">
+        </a>
+       
           <div class="rights">Всі права захищені</div>
           <nav class="social">
             <div class="sign">Підписуйтесь на нас у соцмережах</div>
             <ul class="social-links">
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+              <li><a class="icon-facebook-f" href="#"></a></li>
+              <li><a class="icon-twitter" href="#"></a></li>
+              <li><a class="icon-instagram" href="#"></a></li>
+              <li><a class="icon-paper-plane" href="#"></a></li>
             </ul>
           </nav>
-        </div>
+        
       </div>
+      
+        
      
     </footer>
   </div>
