@@ -21,6 +21,11 @@
   <body>
     <div class="content">  
         <header class="header">
+          <div class="menu-btn">
+            <span class="move-down"></span>
+            <span class="disappear"></span>
+            <span class="move-up"></span>
+          </div>
           <div class="header__wrapper container ">
             <div class="header__logo">
               <!-- <img src="image/e-notarius_logo.png" alt="E-notarius" /> -->
@@ -45,7 +50,7 @@
         </header>
         <main>
          
-          <form class="registration-form" action="post">
+          <form class="registration-form container" action="post">
             <h1 class="form-title">Зареєструватися</h1>
             <label for="license">Ваша ліцензія</label>
             <input type="text" id="license" />
@@ -74,7 +79,7 @@
                   </p>
                 </div>
               </div>
-              <div class="services__item">
+              <div class="services__item search-shield">
                 <img   
                   src="image/notarius_elements_shchit.png"
                   alt="shchit"
@@ -137,5 +142,7 @@
     </footer>
   </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
   </body>
 </html>

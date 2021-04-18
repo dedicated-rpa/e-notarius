@@ -140,7 +140,7 @@ html {
 }
 
 .services {
-    padding: 100px 20px;
+    padding: 100px 0px;
     background-image: url(image/judges_gavel.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,3 +219,186 @@ margin-right: 30px;
 .social-links li:hover {
 color: #22241d;
 }
+
+.menu-btn {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.menu-btn span {
+    display: block;
+    width: 40px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+.menu-btn.active .disappear {
+    display: none;
+}
+.menu-btn.active .move-down {
+    transform: rotate(45deg);
+    width: 30px;
+}
+.menu-btn.active .move-up {
+   
+    transform: rotate(135deg);
+    width: 30px;
+}
+.menu-btn.active span {
+    padding-bottom: 0px;
+}
+.menu-btn.active {
+   margin-top: 20px;
+}
+
+
+
+/* ********************************** */
+@media (max-width: 1200px) {
+ .container {
+     padding: 0 15px;
+ }  
+}
+
+@media (max-width: 1090px) {
+    .services {
+        padding: 120px 0px;
+    }
+   }
+   @media (max-width: 942px) {
+       body {
+        font-size: 14px;
+       }
+    .services {
+        padding: 20px 0px;
+    }
+    .services__wrapper {
+        justify-content: center;
+   }
+   .services__item img {
+    
+    margin-right: 60px;
+}
+.services__item {
+   
+    width: auto;
+   
+}
+.search-shield  {
+   padding-left: 0px;
+}
+.menu-btn {
+    display: block;
+   
+}
+.navigation-list {
+        display: none;
+        text-align: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: transparent; 
+}
+.footer {
+    bottom: -60px;
+}
+.footer__wrapper {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.services__item a {
+    font-size: 30px;
+}
+.social {
+    width: 100%;   
+    margin: 10px 0 0 20px; 
+}
+}
+
+@media (max-width: 645px) {
+    .services__item img {
+        width: 50px;
+        height: 60px;
+    }
+    .search-shield {
+        padding-left: 20px;
+    }
+    .navigation-list {
+        width: 100%;
+        text-align: center;
+        top: 70px;
+        left: 0;
+       
+    }
+    .navigation-list li {        
+        display: block;
+        margin: 0 0 15px 0;
+       
+    }
+    .navigation-list li + li {        
+               margin-left: 0;
+       
+    }
+    
+   }
+   @media (max-width: 480px) {
+       
+    .registration-form {
+        width: 100%;
+    }
+    .header {
+        padding: 15px 20px 250px 0;
+    }
+    .services__item img {
+        margin-right: 20px;
+    }
+    .form-title {        
+        left: 75px;
+
+    }
+    .footer__wrapper {
+        justify-content: center;
+    }
+
+    .rights, 
+    .sign {
+        width: 100%;
+        text-align: center;
+
+    }
+    .rights{
+        text-align: center;
+    }
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-links {
+        min-width: 300px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer {
+        bottom: -100px;
+    }
+    .menu-btn.active .move-down,
+    .menu-btn.active .move-up,  {
+        width: 20px;
+    }
+    .menu-btn span{
+        width: 30px;
+    }
+    ..services__item {
+        padding: 0px;
+    }
+    
+   }
+   @media (max-width: 320px) {       
+    
+    .form-title {        
+        left: 25px;
+    }
+    
+   }
