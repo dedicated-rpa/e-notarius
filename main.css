@@ -1,0 +1,52 @@
+body {
+    color: #333333;
+}
+.main-header {
+    background-image: url(image/notarius_main_pic.jpg);
+    padding-bottom: 410px  !important;
+}
+.main-title {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #333333;
+    position: absolute;
+    top: 350px;
+    left: 40%;
+}
+.main-content__wrapper {
+    padding-bottom: 110px;
+    position: relative;
+    text-align: center;
+    color: #333333;
+}
+.main-content__map {
+    width: 800px;
+    height: 550px;
+}
+.main-content__aplication{
+    width: 390px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+}
+.main-content__info{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    text-align: left;
+}
+
+.application-info{
+    font-size: 14px;
+    display: block;
+    margin-left: 100px; 
+    margin-bottom: 40px;  
+}
+
+.info-list span {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
