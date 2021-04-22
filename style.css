@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    height: 100%;
+    /* height: 100%; */
   }
   
   *,
@@ -32,6 +32,7 @@ html {
       line-height: 1.4; 
       height: auto;
       background-color: #dec8ba;
+      height: auto;
   }
 
   #first-name,
@@ -51,12 +52,11 @@ html {
     margin: 0 auto;  
 }
 .header {    
-    padding: 0px 0px 510px 0;    
-    
+    padding: 0px 0px 510px 0;        
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-   
+    background-position: center;  
+    max-height: 1600px; 
 }
 .notar-header {
     background-image: url(image/notarius_mail_pic_books.jpg);
@@ -66,6 +66,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px 0 0;
+
 }
 .header__logo {
     width: 215px;
@@ -219,11 +220,18 @@ color: #22241d;
  .header__wrapper{
      padding-top: 15px;
  }
+ .main-content__info {
+    right: 0;
+}
 }
 
 @media (max-width: 1090px) {
     .services {
         padding: 120px 0px;
+    }
+    .application-img {   
+        width: 182px;
+        height: 119px
     }
    }
    @media (max-width: 942px) {
@@ -274,6 +282,20 @@ color: #22241d;
     width: 100%;   
     margin: 10px 0 0 20px; 
 }
+
+.main-content__map {
+    width: 700px;
+    height: auto;
+}
+.main-content__info {
+    top: -40px;
+}
+
+}
+@media (max-width: 830px) {
+    .main-content__application {
+        
+    }
 }
 
 @media (max-width: 645px) {

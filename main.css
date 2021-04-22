@@ -29,18 +29,21 @@ body {
     left: 0;
     bottom: 0;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .main-content__info{
     position: absolute;
     top: 0;
-    right: 100px;
+    right: 0px;
     text-align: left;
 }
 
 .application-info{
     font-size: 14px;
     display: block;
-    margin-left: 100px; 
+    margin-left: 20px; 
     margin-bottom: 40px;  
 }
 
@@ -50,3 +53,17 @@ body {
     font-size: 24px;
 }
 
+.application-img {
+    display: inline-block;
+    width: 240px;
+    height: 180px;
+    background-image: url(image/application.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qr-code {
+    width: 140px;
+    height: 140px;      
+}
