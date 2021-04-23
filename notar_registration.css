@@ -38,6 +38,15 @@
 .btn-enter,
 .btn-registration{
     max-width: 430px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 100px; 
+    background-color: #d1b09d;
+    color: #333333;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .btn {
@@ -52,6 +61,8 @@
     text-align: center;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-enter:hover,
+.btn-registration:hover {
     color: #ffffff;
 }
