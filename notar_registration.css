@@ -40,6 +40,7 @@
     text-transform: uppercase;
     border: none;
     border-radius: 15px;
+    text-align: center;
 }
 .btn:hover {
     color: #ffffff;
