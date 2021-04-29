@@ -22,6 +22,7 @@ body {
 .main-content__map {
     width: 800px;
     height: 550px;
+    margin-left: 35%;
 }
 .main-content__aplication{
     width: 390px;
@@ -72,3 +73,10 @@ body {
     width: 140px;
     height: 140px;      
 }
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 400px;
+    
+  }

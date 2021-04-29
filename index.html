@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css" />
-   
+    <script src="./map.js"></script>
     <title>E-notarius</title>
   </head>
   <body>
@@ -65,8 +65,8 @@
                 на крок попереду. <span> Cкануйте QR-code!</span> </span>
                 
              </a>
-            
-             <img class="main-content__map" src="image/ukraine_map.png" alt="map">
+            <div id="map" class="main-content__map"></div>
+             
              <div class="main-content__info">
                <ul class="info-list">
                  <li>
@@ -164,5 +164,9 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="main.js"></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYmININuJX66j2ZHZUhR8YKnPqid43Vh0&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
   </body>
 </html>
