@@ -410,7 +410,7 @@ color: #22241d;
     border-radius: 20px;
     min-height: 500px;
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
    }
@@ -420,5 +420,8 @@ color: #22241d;
     margin-left: 30px;
     margin-top: 20px;
 
+   }
+   ul li{
+ color: black;
    }
    

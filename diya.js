@@ -34,11 +34,13 @@ fetch('./datanot.json')
             if(names[p].name === li.innerHTML){
               let childLi = document.createElement('li');
               let itmeUl = document.createElement("ul")
+                
               
               for(let b = 0; b < names[p].items.length; b++){
                 let itemLi = document.createElement('li');
                 
                 itemLi.innerHTML = names[p].items[b]
+                itemLi.style.color = "black";
                 itmeUl.appendChild(itemLi)
                 
               }
