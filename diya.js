@@ -37,18 +37,10 @@ fetch('./datanot.json')
               
               for(let b = 0; b < names[p].items.length; b++){
                 let itemLi = document.createElement('li');
-                let checkbox = document.createElement('input');
-                checkbox.type = 'checkbox';
-                checkbox.id = 'items';
-                            
-                var label = document.createElement('label')
-                label.innerHTML = names[p].items[b]
-                label.htmlFor = 'items';
                 
-                label.appendChild(document.createTextNode('Car'));
+                itemLi.innerHTML = names[p].items[b]
 
-
-                itemLi.appendChild(checkbox)
+                
 
                 
                 itmeUl.appendChild(itemLi)
