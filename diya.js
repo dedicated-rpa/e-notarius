@@ -39,10 +39,6 @@ fetch('./datanot.json')
                 let itemLi = document.createElement('li');
                 
                 itemLi.innerHTML = names[p].items[b]
-
-                
-
-                
                 itmeUl.appendChild(itemLi)
                 
               }
