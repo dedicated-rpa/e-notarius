@@ -14,7 +14,7 @@ navigator.geolocation.getCurrentPosition(success, error);
 
 const userCoords = mainCoords;
 
-            fetch("./datanot.json")
+            fetch("./data.json")
                 .then(function(resp){
                     return resp.json();
                 })
