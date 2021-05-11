@@ -426,17 +426,4 @@ color: #22241d;
    }
    
    
-   .dogovir{
    
-    background-image: url('./image/108782-pergament-drevesina-svitok-korichnevyj_cvet-uzor-2560x1600.jpg');
-    background-size: cover;
-    
-    min-width: 800px;
-    
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-    
-   }
