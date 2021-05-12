@@ -425,5 +425,17 @@ color: #22241d;
  color: black;
    }
    
-   
+   #messPolityka{
+    z-index: 99999;
+    display: none;
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    width: 300px; 
+    height: 85px; 
+    position: fixed;
+    background-image: url('./image/messPol.png'); 
+    background-size: cover;
+    
+   }
    

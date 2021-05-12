@@ -15,11 +15,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="notar_registration.css">
-    <link rel="stylesheet" href="style.css" />
+    
     <link rel="stylesheet" href="fonts/fonts.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>E-notarius</title>
   </head>
-  <body>
+  <body style="background-color : transparent;">
     <div class="content">  
           <header class="header  notar-header">
           <div class="menu-btn">
@@ -32,38 +36,47 @@
               <!-- <img src="image/e-notarius_logo.png" alt="E-notarius" /> -->
             </a>
             <nav class="header__navigation">
-              <ul class="navigation-list">
-                <li >
-                  <a href="./index.html"> Головна </a>
-                </li>
-                <li >
-                  <a href="./dogovir_user.html"> Для громадян </a>
-                </li>
-                <li class="active" >
-                  <a href="./notarius_enter.html"> Для нотаріусів </a>
-                </li>
-                <li >
-                  <a href="./notar_diyannia.html">Нотаріальні діяння </a>
-                </li>
-                
-              </ul>
+                <ul class="navigation-list">
+                    <li>
+                      <a href="./index.html"> Головна </a>
+                    </li>
+                    <li >
+                      <a href="./dogovir_user.html"> Для громадян </a>
+                    </li>
+                    <li>
+                      <a href="./notarius_enter.html"> Для нотаріусів </a>
+                    </li>
+                    <li >
+                      <a href="./notar_diyannia.html">Нотаріальні діяння </a>
+                    </li>
+                    
+                  </ul>
             </nav>
           </div>
         </header>
         <main>
-          
+            
           <div style="background-color: #f6e3d2; min-height: 700px;">
-            <p style="margin-left: 40%; padding-top: 10px; color: black;"> Ознайомтесь будь-ласка з <a href="./dogovir_notar.html" style="color: white;">договором</a> </p>
-            <iframe  style=" margin-left: 35%; padding-top: 30px;" frameborder="0" src="https://secure.esputnik.com/ACo23dfWuWs" width="30%" height="650px" scrolling="no"></iframe>
+            <div style=" background-image: url('./image/108782-pergament-drevesina-svitok-korichnevyj_cvet-uzor-2560x1600.jpg'); background-size: cover; min-width: 800px; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);" class="dogovir">
+                <!-- <iframe  width="800px" height= "908px" style="opacity: 0.6; " src="https://docs.google.com/document/d/e/2PACX-1vQh0fgXWw8HuPqfcSc9JWLyFLegWZtFH3DqiQBYP93im3SkddkAgokLGWyQJjORbFrGwVM0IMuifnxq/pub?embedded=true "></iframe> -->
+                <iframe  width="800px" height= "908px" style="opacity: 0.6; " src="https://docs.google.com/document/d/e/2PACX-1vRGwlryXyWp1_YmW2fyYOZ8XaqGfFGq0UpW3sBzaFftp-9W_wlXgqJmmWRAxp9fr1d2tuiL6VoNp_7q/pub?embedded=true"></iframe>
+              </div>
           </div>
-          
           
           <!-- <form class="registration-form container" action="post">
             <h1 class="form-title">Зареєструватися</h1>
             <label for="license">Ваша ліцензія</label>
             <input type="text" id="license" />
             <label for="fio">Ваше ПІБ</label>
-            <input type="text" id="first-name" placeholder="Прізвище" />
+            <input type="text" id="first-name" placeholder="Прізвище" /> background-image: url('./image/108782-pergament-drevesina-svitok-korichnevyj_cvet-uzor-2560x1600.jpg');
+    background-size: cover;
+    
+    min-width: 800px;
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
             <input type="text" id="second-name" placeholder="Ім'я" />
             <input type="text" id="third-name" placeholder="По-батькові" />
             <label for="phone">Ваш телефон</label>

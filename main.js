@@ -7,3 +7,10 @@ $(function () {
     });
 
   });
+function message(){
+    setTimeout(function(){
+      $('#messPolityka').fadeIn(200)
+    }, 2000);
+   };
+
+   message()
