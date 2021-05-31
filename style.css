@@ -88,11 +88,13 @@ html {
     display: inline-block;
     transition: all 0.3s;
 }
-.navigation-list li:hover {
-    color: #22241d;
+.navigation-list li:hover,
+a:hover
+ {
+    color: #ffffff;
 }
 .navigation-list .active {
-    color: #22241d;
+    color: #ffffff;
 }
 
 .navigation-list li + li {
@@ -231,7 +233,11 @@ color: #22241d;
 .btn-registration:hover {
     color: #ffffff;
 }
-
+.btn__wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
 
 /* ********************************** */
 @media (max-width: 1200px) {
@@ -405,14 +411,14 @@ color: #22241d;
    }
 
    #main{
-    width: 600px;
-    background-color: #f6e3d2;
+    width: 90%;
+    max-height: 700px;
+    /* background-color: #f6e3d2; */
     border-radius: 20px;
-    min-height: 500px;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 50px auto;
+    overflow-y: scroll;
+    z-index: 5;
+    text-align-last: left;
    }
    .li{
     font-family: 'Roboto Slab', serif;

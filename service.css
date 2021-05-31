@@ -1,0 +1,32 @@
+.about_service {
+    margin: 40px auto;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.about_service p {
+   color: black;
+}
+.about_service span {
+    font-size: 20px;
+    color: #333333;
+ }
+
+.about_service ol {
+    margin: 30px 0 150px;
+    text-align-last: left;
+    color: black;   
+ }
+
+ .about_service ol li{
+    margin-bottom: 15px;
+    padding-left: 10px;
+ }
+   /* .about_service ul li::before{
+      content: '-';
+      font-size: 14px;
+      margin-right: 5px;
+      
+      
+   } */
