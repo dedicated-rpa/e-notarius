@@ -239,6 +239,10 @@ color: #22241d;
     justify-content: space-around;
 }
 
+.main-content__map--search {
+    width: 70%;
+}
+
 /* ********************************** */
 @media (max-width: 1200px) {
  .container {

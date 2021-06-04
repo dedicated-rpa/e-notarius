@@ -23,7 +23,7 @@ fetch('./datanot.json')
     
     for(let k = 0; k < names.length; k++){
         let ul = document.createElement('ul');
-        let li = document.createElement('li')
+        let li = document.createElement('li');
         li.setAttribute('class', 'li')
         li.innerHTML = names[k].name;
         ul.appendChild(li)

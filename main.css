@@ -22,8 +22,10 @@ body {
 .main-content__map {
     width: 800px;
     height: 550px;
-    margin-left: 35%;
+    margin: 50px auto;
 }
+
+
 .main-content__aplication{
     width: 390px;
     position: absolute;
