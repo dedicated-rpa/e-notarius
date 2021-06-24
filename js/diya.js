@@ -1,5 +1,5 @@
 
-fetch('./datanot.json')
+fetch('../datanot.json')
 .then((response) => {
   return response.json();
 })

@@ -2,19 +2,20 @@ body {
     color: #333333;
 }
 .main-header {
-    background-image: url(image/notarius_main_pic.jpg);
+    background-image: url(../image/notarius_main_pic.jpg);
     padding-bottom: 410px  !important;
 }
 .main-title {
+    margin: 80px auto;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     color: #333333;
     position: absolute;
-    top: 350px;
+    top: 300px;
     left: 40%;
 }
 .main-content__wrapper {
-    padding-bottom: 110px;
+    padding-bottom: 250px;
     position: relative;
     text-align: center;
     color: #333333;
@@ -28,9 +29,10 @@ body {
 
 .main-content__aplication{
     width: 390px;
+    padding-bottom: 40px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 0px;
+    bottom: -40px;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -65,7 +67,7 @@ body {
     display: inline-block;
     width: 240px;
     height: 180px;
-    background-image: url(image/application.png);
+    background-image: url(../image/application.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,8 +79,8 @@ body {
 }
 
 #map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 400px;
-    
+    height: 300px;
+    /* The height is 300 pixels */
+    width: 500px;    
   }
+  
