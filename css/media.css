@@ -103,12 +103,7 @@
    }
    
    }
-   @media (max-width: 830px) {
-       .main-content__application {
-           
-       }
-   }
-   
+    
    @media (max-width: 645px) {
        .services__item img {
            width: 50px;
@@ -201,7 +196,14 @@
         width: 200px;
          flex-direction: column-reverse;
      }
+     #messPolityka{
+        top: 16rem;
+        right: 3rem;        
+       }
        
+       .main-title {
+        left: 20%;
+    }
       }
       @media (max-width: 320px) {       
        
