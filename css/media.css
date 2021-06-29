@@ -6,9 +6,33 @@
     .header__wrapper{
         padding-top: 15px;
     }
+
+    .header {
+        padding: 0px 0px 0px 0;
+    }
     .main-content__info {
        right: 0;
    }
+   .main-content__wrapper {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+   }
+   .main-content__aplication,
+   .main-content__info {
+       position: static;
+   }
+
+   .main-content__aplication {
+       width: 100%;
+       justify-content: space-around;
+   }
+
+   .qr-code {
+    width: 100px;
+    height: 100px;
+}
+
    }
    
    @media (max-width: 1090px) {
@@ -19,9 +43,7 @@
            width: 182px;
            height: 119px
        }
-       .main-content__aplication {
-           
-       }
+       
       }
       @media (max-width: 942px) {
           body {
@@ -111,6 +133,21 @@
                   margin-left: 0;
           
        }
+
+       #messPolityka {       
+        top: 16rem;
+        right: 20rem;        
+    }
+
+      
+    .qr-code, 
+    .application-img {
+        margin: 0 auto 40px;
+    }
+    #map {
+    height: 300px;
+    width: 300px;
+}
        
       }
       @media (max-width: 480px) {
@@ -162,6 +199,10 @@
        .services__item {
            padding: 0px;
        }
+       .main-content__aplication {
+        width: 200px;
+         flex-direction: column-reverse;
+     }
        
       }
       @media (max-width: 320px) {       

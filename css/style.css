@@ -52,7 +52,7 @@ html {
     margin: 0 auto;  
 }
 .header {    
-    padding: 0px 0px 520px 0;        
+    /* padding: 0px 0px 520px 0;         */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;  
