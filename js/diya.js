@@ -29,6 +29,7 @@ fetch('../datanot.json')
         ul.appendChild(li)
         maindiv.appendChild(ul)
         li.onclick = function(){
+
           
           for(let p = 0; p < names.length; p++){
             if(names[p].name === li.innerHTML){
